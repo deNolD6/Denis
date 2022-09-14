@@ -1,0 +1,107 @@
+<html>
+	<head>
+		<title>Основні елементи</title>
+		<link rel="stylesheet" type="text/css" href="css/basic elements.css">
+		<link rel="stylesheet" type="text/css" href="css/image.css">
+		<link rel = "icon" href = "images/logo.png" type = "image/x-icon">
+		<meta charset="utf-8">
+	</head>
+
+	<body >
+		<header class="header">
+			<div class="headerdiv">
+				<div class="divlogo">
+					<img src="images/logo.png" class="logo">
+				</div>
+				<div class="ulheader">
+					<ul class="ul">
+						<li class="li"><a href="index.html" class="a">Головна</a></li>
+						<li class="li"><a href="basic elements.html" class="a">Основні елементи</a></li>
+						<li class="li"><a href="history.html" class="a">Історія створення</a></li>
+						<li class="li"><a href="https://www.blender.org/" class="a">Офіційний сайт</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<div>
+			<div class="maindiv">
+				<div class="divlightgreytitle">
+					<div class="title">
+						<b>Основні елементи Blender'у</b>
+					</div>
+				</div>
+				<div class="divlightgrey">
+					<div class="divflex">
+						<div class="textleft">
+							<p class="space"><b>Інтерфейс</b></p>
+							<p class="space">Вгорі знаходиться верхня панель, на якій розміщені іконка, меню програми (починається з File), вкладки для перемикання на різну розмітку робочих областей (починається з Layout), меню для вибору сцен і шарів (Scene, View Layer).</p>
+							<p class="space">У самому низу вікна знаходиться рядок стану, він призначений для інформування про поточні стани та налаштування.</p>
+							<p class="space">Решта місця вікна програми розділено на 4 області. Їх кількість та розмір можна змінювати.</p>
+						</div>
+						<div>
+							<img src="images/interface.png" class="imageright">
+						</div>
+					</div>
+					<div class="textleft">
+						<p class="space">Якщо ми подивимося на вихідну розмітку областей та список редакторів, то зрозуміємо, що найбільшу область займає редактор 3D Viewport, справа зверху знаходиться Outliner, справа знизу Properties, внизу Timeline.</p>
+						<p class="space">Звідси також зрозуміло, кожен редактор призначений до виконання свого кола завдань. Так у 3D-виді виконуються базові трансформації об'єктів, їхнє додавання. Це вид нашої сцени. Outliner служить менеджером об'єктів, Properties відповідає за налаштування об'єктів, сцен та ін. За допомогою Timeline можна створити нескладну анімацію.</p>
+						<p class="space">Згадаймо, що на верхній панелі поруч із меню знаходиться близько десяти вкладок. Ми на вкладці Layout. Якщо перейти на будь-яку іншу, то розмітка областей зміниться. Розклад редакторів буде таким, яким його вважають зручним розробники Blender для виконання будь-якої задачі.</p>
+					</div>
+				</div>
+				<div class="divlightgrey">
+					<div class="divflex">
+						<div class="textleft">
+							<p class="space">Ми можемо створювати свої вкладки, переіменовувати їх, як і існуючі, налаштовувати області по своєму перегляду.</p>
+							<p class="space">Хотя кожен редактор має свої особливості, між ними є загальне у складних частинах, принципах управління та роботи. Розглянемо будову редактора 3D Viewport, оскільки тут доведеться працювати більше всього.</p>
+							<p>У 3D Viewport є п’ять регіонів. При цьому частина з них може бути скрита.</p>
+						</div>
+						<div>
+							<img src="images/another interface.png" class="imageright">
+						</div>
+					</div>
+				</div>
+				<div class="divlightgrey">
+					<div class="divflex">
+						<div class="textright">
+							<p class="space"><b>Головний регіон</b> завжди видно і є робочою областю редактора.</p>
+							<p class="space">У <b>заголовку</b> розміщується меню редактора (не плутайте з меню всієї програми) та різні кнопки управління.</p>
+							<p class="space">У <b>регіоні інструментів</b> знаходяться інструменти відповідно. Перемикаючись між ними, можна виконувати різні дії у головному регіоні редактора. Регіон інструментів приховується та відображається клавішею T клавіатури.</p>
+							<p class="space"><b>Бічний регіон</b> містить деякі налаштування самого об'єкта та редактора.</p>
+							<p class="space">Вміст <b>регіону останньої операції</b> залежить від того, що ви робите зараз. Наприклад, якщо об'єкт переміщається, то, розгорнувши цю панель, можна вказати точні значення переміщення. Якщо об'єкт створюється, тут можна задати рівень його деталізації, тобто кількість складових частин.</p>
+							<p class="space">В інших редакторах вкладки можуть виглядати по-іншому (у вигляді іконок або кнопок розташовуватися горизонтально).</p>
+						</div>
+						<div>
+							<img src="images/regions.png" class="imageleft">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="divfooter">
+				<div class="divulfooter">
+					<ul class="ulfooter">
+						<h class="h"><b>Використані джерела:</b></h>
+						<li class="lifooter"><a href="https://www.blender.org/" class="afooter">Blender</a></li>
+						<li class="lifooter"><a href="https://docs.blender.org/manual/ru/dev/render/introduction.html" class="afooter">Blender Manual</a></li>
+						<li class="lifooter"><a href="https://www.blender.org/features/sculpting/" class="afooter">Blender Sculpting</a></li>
+						<li class="lifooter"><a href="https://www.google.com/webhp?hl=ru&sa=X&ved=0ahUKEwikofa0wsD3AhU0i8MKHQt-B2oQPAgI" class="afooter">Google</a></li>
+						<li class="lifooter"><a href="https://www.youtube.com/" class="afooter">YouTube</a></li>
+					</ul>
+				</div>
+				<div class="divulfooter">
+					<ul class="ulfooter">
+						<h class="h"><b>Дата:</b></h>
+						<li class="lifooter">20.05.2022</li>
+					</ul>
+				</div>
+				<div class="divulfooter">
+					<ul class="ulfooter">
+						<h class="h"><b>Зв'язок</b></h>
+						<li class="lifooter"><a href="sent a message.html" class="afooter">Відправити повідомлення</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
