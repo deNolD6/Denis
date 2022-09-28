@@ -1,38 +1,151 @@
-<html>
-	<head>
-		<title>Зв'язок</title>
-		<link rel="stylesheet" type="text/css" href="css/sent a message.css">
-		<link rel="stylesheet" type="text/css" href="css/image.css">
-		<link rel = "icon" href = "images/logo.png" type = "image/x-icon">
-		<meta charset="utf-8">
-	</head>
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-	<body >
-		<header class="header">
-			<div class="headerdiv">
-				<div class="divlogo">
-					<img src="images/logo.png" class="logo">
-				</div>
-				<div class="ulheader">
-					<ul class="ul">
-						<li class="li"><a href="index.html" class="a">Головна</a></li>
-						<li class="li"><a href="basic elements.html" class="a">Основні елементи</a></li>
-						<li class="li"><a href="history.html" class="a">Історія створення</a></li>
-						<li class="li"><a href="https://www.blender.org/" class="a">Офіційний сайт</a></li>
-					</ul>
-				</div>
-			</div>
-		</header>
-		<div class="maindiv">
-			<form class="divform" action="site.html">
-				<div class="formtitle">
-					<p>Відправити нам повідомлення</p>
-				</div>
-				<input type="text" placeholder="Ім'я" class="inputtext">
-				<input type="email" placeholder="Email" class="inputemail">
-				<textarea type="message" placeholder="Повідомлення" rows="5" class="inputmessage"></textarea>
-				<input type="submit" value="Відправити" class="inputsubmit">
-			</form>
-		</div>
-	</body>
-</html>
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #E5E5E5;
+}
+
+.header{
+	background: #F2F2F2;
+	height: 55px;
+	margin: 0px auto;
+}
+
+.headerdiv{
+	display: flex;
+	max-width: 1150px;
+	margin: 0px auto;
+}
+
+.divlogo{
+	width: auto;
+	background-color: #F2F2F2;
+	margin-right: auto;
+	padding-left: 40px;
+}
+
+
+.li{
+	display: inline;
+	font-family: 'Roboto', sans-serif;
+	margin: 40px;
+	font-size: 18px
+}
+
+.ul{
+	padding-top: 16px;
+}
+
+.ulheader{
+	background: #F2F2F2;
+	width: auto;
+}
+
+.a{
+	text-decoration: none;
+	color: #4C4C4C;
+}
+
+.a:hover{
+	color: #EA7600;
+}
+
+.maindiv{
+	background-color: #E5E5E5;
+	padding: 40 0 20 0px;
+}
+
+.divform{
+	background-color: #265787;
+	border-radius: 10px;
+	width: 575px;
+	margin: 0px auto;
+ 	padding: 40px;
+}
+
+.formblocks{
+	background-color: #265787;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.formtitle{
+	width: auto;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	color: #F2F2F2;
+	padding-bottom: 40px;
+}
+
+.inputtext{
+	width: 575px;
+	background: #F2F2F2;
+	color: #4C4C4C;
+	font-size: 15px;
+	padding: 15px;
+	border-radius: 10px;
+	border: solid;
+	border: 1px;
+	outline: 20px;
+}
+
+.inputemail{
+	width: 575px;
+	background: #F2F2F2;
+	color: #4C4C4C;
+	font-size: 15px;
+	padding: 15px;
+	margin-top: 15px;
+	border-radius: 10px;
+	border: solid;
+	border: 1px;
+	outline: 20px;
+}
+
+.inputmessage{
+	width: 575px;
+	background: #F2F2F2;
+	color: #4C4C4C;
+	font-size: 15px;
+	padding: 15px;
+	margin-top: 15px;
+	border-radius: 10px;
+	border: solid;
+	border: 1px;
+	font-family: 'Roboto', sans-serif;
+	resize: none;
+	outline: 20px;
+}
+
+.inputsubmit{
+	width: 575px;
+	background: #F2F2F2;
+	color: #4C4C4C;
+	font-size: 15px;
+	padding: 15px;
+	margin-top: 30px;
+	border-radius: 10px;
+	border: solid;
+	border: 1px;
+
+}
+
+::placeholder {
+	color: #4C4C4C;	
+}
+
+.a{
+	width: 575px;
+}
+
+.a:hover{
+color: #EA7600
+}
+
+input[type=text]:focus {
+  border: none
+}
