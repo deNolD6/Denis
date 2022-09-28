@@ -60,7 +60,7 @@ body{
 }
 
 .divform{
-	background-color: #F2F2F2;
+	background-color: #265787;
 	border-radius: 10px;
 	width: 575px;
 	margin: 0px auto;
@@ -77,37 +77,39 @@ body{
 	width: auto;
 	font-size: 30px;
 	font-family: 'Roboto', sans-serif;
-	color: #4C4C4C;
+	color: #F2F2F2;
 	padding-bottom: 40px;
 }
 
 .inputtext{
 	width: 575px;
-	background: #265787;
-	color: #ffffff;
+	background: #F2F2F2;
+	color: #4C4C4C;
 	font-size: 15px;
 	padding: 15px;
 	border-radius: 10px;
 	border: solid;
 	border: 1px;
+	outline: 20px;
 }
 
 .inputemail{
 	width: 575px;
-	background: #265787;
-	color: #ffffff;
+	background: #F2F2F2;
+	color: #4C4C4C;
 	font-size: 15px;
 	padding: 15px;
 	margin-top: 15px;
 	border-radius: 10px;
 	border: solid;
 	border: 1px;
+	outline: 20px;
 }
 
 .inputmessage{
 	width: 575px;
-	background: #265787;
-	color: #ffffff;
+	background: #F2F2F2;
+	color: #4C4C4C;
 	font-size: 15px;
 	padding: 15px;
 	margin-top: 15px;
@@ -116,12 +118,13 @@ body{
 	border: 1px;
 	font-family: 'Roboto', sans-serif;
 	resize: none;
+	outline: 20px;
 }
 
 .inputsubmit{
 	width: 575px;
-	background: #265787;
-	color: #ffffff;
+	background: #F2F2F2;
+	color: #4C4C4C;
 	font-size: 15px;
 	padding: 15px;
 	margin-top: 30px;
@@ -132,7 +135,7 @@ body{
 }
 
 ::placeholder {
-	color: #F2F2F2;	
+	color: #4C4C4C;	
 }
 
 .a{
@@ -141,4 +144,8 @@ body{
 
 .a:hover{
 color: #EA7600
+}
+
+input[type=text]:focus {
+  border: none
 }
