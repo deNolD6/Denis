@@ -145,7 +145,3 @@ body{
 .a:hover{
 color: #EA7600
 }
-
-input[type=text]:focus {
-  border: none
-}
