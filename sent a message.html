@@ -24,13 +24,13 @@
 			</div>
 		</header>
 		<div class="maindiv">
-			<form class="divform" action="index.html">
+			<form class="divform" action="email.php" method="post">
 				<div class="formtitle">
 					<p>Відправити нам повідомлення</p>
 				</div>
-				<input type="text" placeholder="Ім'я" class="inputtext">
-				<input type="email" placeholder="Email" class="inputemail">
-				<textarea type="message" placeholder="Повідомлення" rows="5" class="inputmessage"></textarea>
+				<input type="text" name="name" placeholder="Ім'я" class="inputtext">
+				<input type="email" name="email" placeholder="Email" class="inputemail">
+				<textarea type="message" name="message" placeholder="Повідомлення" rows="5" class="inputmessage"></textarea>
 				<input type="submit" value="Відправити" class="inputsubmit">
 			</form>
 		</div>
